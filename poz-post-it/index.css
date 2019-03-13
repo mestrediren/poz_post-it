@@ -1,0 +1,42 @@
+body
+{
+    background-image: url("post-it.jpg");
+}
+h1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#creator {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+		}
+#content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+		}
+#inputs {
+	margin: auto;
+		}
+input[type=text] {
+	border: 2px solid blue;
+	border-radius: 4px;
+}
+input[type=button] {
+	background-color: red;
+	border: none;
+	color: white;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+input[id=creatorButton] {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}

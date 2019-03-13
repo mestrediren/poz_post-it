@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<link rel="stylesheet" href="index.css">
+        <title>poz post-it</title>
+		<div class="header-container">
+				<div class="row">
+					<h1>
+						Poz post-it
+					</h1>
+				</div>
+			</div>
+    </head>
+    <body>
+		<div id="creator">
+			<input type="text" id="creatorTitle" placeholder="name" value="" />
+			<input type="text" id="creatorText" placeholder="content" value="" />
+			<input type="button" id="creatorButton" value="create" onclick="addRow()">
+		</div>
+		<br />
+		<div id="content">
+		</div>
+		<br />
+		<div id="inputs">
+			<input type="checkbox" id="rand"/><label for="rand">Génération de couleur aléatoire</label>
+			<br />
+		</div>
+	</body>
+	<script type="text/javascript" src="script.js"></script>
+</html>
